@@ -1,7 +1,8 @@
 <?php    
-    $host = "localhost";
-    $user = "root";
-    $password = "root";
-    $dbname = "food_recommender";
-    $con = mysqli_connect($host, $user, $password, $dbname);
+    $host = "sql11.freesqldatabase.com";
+    $user = "sql11472048";
+    $password = "EpBtK2wiRH";
+    $dbname = "sql11472048";
+
+    $con = mysqli_connect($host, $user, $password,$dbname);
 ?>

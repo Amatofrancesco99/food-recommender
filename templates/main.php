@@ -20,10 +20,9 @@
 
         <header id="main">
             <h1 class="purple">
-                What we suggest you eating this time
+                What can I eat now?
             </h1>
             <button id="reset" onclick="alert('Ops...This part of the site is already under development');"></button>
-
         </header>
 
         <?php include("sharedElements/footer.php") ?>

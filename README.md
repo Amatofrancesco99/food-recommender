@@ -1,4 +1,4 @@
-# food-recommender
+# Food Recommender 🍟
 [![ForTheBadge built-with-love](http://ForTheBadge.com/images/badges/built-with-love.svg)](https://gitHub.com/Amatofrancesco99/)
 [![License](https://img.shields.io/github/license/Ileriayo/markdown-badges?style=for-the-badge)](./blob/main/LICENSE)
 ![Repo-views-counter](https://komarev.com/ghpvc/?username=FoodRecommender&label=VIEWS&color=blueviolet&style=flat-square)

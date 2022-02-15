@@ -1,7 +1,6 @@
 This file contains some features that must be added/fixed
 
 List:
-    - Add in index two parts: features explanation, what users said
     - Improve the forms such that they'll be responsive (usable on every device) 
     - Add sweetalert in php when error are occourring (server side) (tryed to solve it but not capable of fixing it?)
     - Import the dataset containing receipes

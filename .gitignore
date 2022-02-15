@@ -1,3 +1,4 @@
 .DS_Store
 
-dataset/
+dataset/recipes.csv
+dataset/recipe.csv.zip

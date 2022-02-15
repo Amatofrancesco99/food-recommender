@@ -53,7 +53,7 @@
                 <div class="more-content">
                     <h1 class="white-pink more-title x-large">SOME <span class="purple">FEATURES</span></h1>
                     <p id="more-text-change" class="white medium">
-                        Over 45k recipes, coming from all over the world
+                        Over 180k recipes, coming from all over the world
                     </p>
                 </div>
             </div>
@@ -67,14 +67,14 @@
                 <div class="clients-content">
                     <h1 class="white-pink x-large">WHAT <span class="purple">CLIENTS </span>SAID</h1>
                     <p>
-                    <div class="comments-container">
-                        <?php include("../scripts/php/show_comments.php") ?>
-                    </div>
-                    <div class="dot-container">
-                        <span class="dot" onclick="currentSlide(1)"></span> 
-                        <span class="dot" onclick="currentSlide(2)"></span> 
-                        <span class="dot" onclick="currentSlide(3)"></span> 
-                    </div>
+                        <div class="comments-container">
+                            <?php include("../scripts/php/show_comments.php") ?>
+                        </div>
+                        <div class="dot-container">
+                            <span class="dot" onclick="currentSlide(1)"></span> 
+                            <span class="dot" onclick="currentSlide(2)"></span> 
+                            <span class="dot" onclick="currentSlide(3)"></span> 
+                        </div>
                     </p>
                 </div>
             </div>

@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;900&display=swap');
 
-h1, h2, h3, h4, h5, h6, p, a, #navbar, #header, #footer,#comment-area, .content, .content2, .button, .typewriter p {
+h1, h2, h3, h4, h5, h6, p, q, a, #navbar, #header, #footer,#comment-area, .content, .content2, .button, .typewriter p {
     font-family: 'Merriweather', serif;
 }
 
@@ -133,6 +133,10 @@ hr {
 
 .more-title {
     font-weight: bold;
+}
+
+#more-text-change {
+    margin-top: 10%;
 }
 
 .clients-container {
@@ -307,7 +311,7 @@ q {
 }
 
 .item.social {
-    margin-top: 0.5%;
+    margin-top: 0.25%;
     text-align: center;
 }
 
@@ -335,7 +339,6 @@ q {
     text-align: center;
     padding-top: 0.5%;
     opacity: 0.35;
-    font-size: 100%;
     margin-bottom: 0;
 }
 

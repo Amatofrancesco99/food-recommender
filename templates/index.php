@@ -67,20 +67,8 @@
                 <div class="clients-content">
                     <h1 class="white-pink x-large">WHAT <span class="purple">CLIENTS </span>SAID</h1>
                     <p>
-                    <!-- Get the comments from the db-->
                     <div class="comments-container">
-                        <div class="comment">
-                            <q class="white">I love you the more in that I believe you had liked me for my own sake and for nothing else</q>
-                            <p class="author white-pink">- John Keats</p>
-                        </div>
-                        <div class="comment">
-                            <q class="white">But man is not made for defeat. A man can be destroyed but not defeated.</q>
-                            <p class="author white-pink">- Ernest Hemingway</p>
-                        </div>
-                        <div class="comment">
-                            <q class="white">I have not failed. I've just found 10,000 ways that won't work.</q>
-                            <p class="author white-pink">- Thomas A. Edison</p>
-                        </div>
+                        <?php include("../scripts/php/show_comments.php") ?>
                     </div>
                     <div class="dot-container">
                         <span class="dot" onclick="currentSlide(1)"></span> 

@@ -12,7 +12,7 @@
 		$username = $_POST['username'];
 		$password = $_POST['password'];
 
-		$query = "select * from users where username = '$username' limit 1";
+		$query = "SELECT * FROM users WHERE username = '$username' LIMIT 1";
 		$result = mysqli_query($con, $query);
 		
 		if($result) {

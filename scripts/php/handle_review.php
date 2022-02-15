@@ -13,7 +13,7 @@
     }
     
     /* Handling the problem if the user logs out and then returns to review page */
-    if(isset($_SESSION["username"])){
+    if(isset($_SESSION['username'])){
         if($isAnonymous) {
             $username = NULL;
         } else {

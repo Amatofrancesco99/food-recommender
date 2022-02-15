@@ -88,9 +88,7 @@
                 <h1 class="white-pink x-large">MAKE <span class="purple">REQUESTS </span></h1>
                 <p class="white medium">
                     <a href="login.php" class="purple">Login now</a> and leave a review.<br>
-                    <a id="typewriter" class="typewriter white" data-period="2000" data-type='[ "Your opinion matters!" ]'>
-                        <span class="wrap"></span>
-                    </a>
+                    <div id="typewriter" class="white medium"></div>
                 </p>
             </div>
         </article>

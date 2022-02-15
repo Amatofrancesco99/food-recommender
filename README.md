@@ -6,6 +6,8 @@
 ## Description
 A web app, whose purpose is suggesting new recipes to logged users.
 
+![alt image](https://github.com/Amatofrancesco99/food-recommender/blob/main/images/other/mockup.jpg)
+
 *** 
 ## More information
 ### Languages, libraries, packages, database & web server

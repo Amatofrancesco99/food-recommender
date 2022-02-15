@@ -53,7 +53,7 @@
                 <div class="more-content">
                     <h1 class="white-pink more-title x-large">SOME <span class="purple">FEATURES</span></h1>
                     <p id="more-text-change" class="white medium">
-                        Over 180k recipes, coming from all over the world
+                        Over 45k recipes, coming from all over the world
                     </p>
                 </div>
             </div>

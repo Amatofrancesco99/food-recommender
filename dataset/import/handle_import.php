@@ -3,7 +3,7 @@
 	require_once("../../scripts/php/config.php");
 
     $row = 1;
-    $row_error = array();
+    $id_errors = array();
     if (($handle = fopen("../recipes.csv", "r")) !== FALSE) {
         while (($data = fgetcsv($handle)) !== FALSE) {
             if (($row > 1) && ($row % 2 == 0)) {
@@ -11,7 +11,7 @@
                 if($stmt = mysqli_prepare($con, $sql)){
                     mysqli_stmt_bind_param($stmt, "isdsissss", $data[0], $data[1], $data[2], $data[3], $data[4], $data[5], $data[6], $data[7], $data[8]);
                     if(!mysqli_stmt_execute($stmt)){
-                        array_push($row_error, $data[0]);
+                        array_push($id_errors, $data[0]);
                     }
                     mysqli_stmt_close($stmt);
                 }
@@ -21,5 +21,7 @@
         fclose($handle);
     }
     mysqli_close($con);
-    echo($row_error);
+    echo('Import completed<br>');
+    echo('Recipes id that were not inserted properly:<br>');
+    echo '<pre>'; print_r($id_errors); echo '</pre>';
 ?>

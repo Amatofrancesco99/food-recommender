@@ -15,17 +15,25 @@
     </head>
 
 
-    <body>
+    <body onload="hideRecipe()">
         <?php include("sharedElements/navbars/navbar2.php") ?>
 
         <header id="main">
             <h1 class="purple">
                 What can I eat now?
             </h1>
-            <form action="../scripts/php/handle_show-receipe.php" method="post">
-                    <input type="submit" class="button" value="Show receipe" name="show" id="show">
+            <form action="../scripts/php/handle_show-recipe.php" method="post">
+                <input type="submit" class="button" value="Show new recipe" name="show" id="show">
             </form>
         </header>
+        
+        <article id="recipe">
+            <div class="login-container">
+                <div class="content">
+                    <!-- Get a random recipe from the db -->
+                </div>
+            </div>
+        </article>
 
         <?php include("sharedElements/footer.php") ?>
 

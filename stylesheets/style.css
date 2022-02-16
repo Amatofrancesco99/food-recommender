@@ -230,6 +230,13 @@ q {
     opacity: 1;
 }
 
+.food {
+    border-radius: 15%;
+    border: 2px solid #831d58;
+    max-width: 25%;  
+    height: 25%; 
+}
+
 .reduced {
     max-width: 32%;
 }
@@ -245,6 +252,11 @@ q {
     text-align: center;
     color: #831d58;
     padding: 0% 15% 0%;
+}
+
+.food-content {
+    text-align: center;
+    padding: 3% 7% 0%;
 }
 
 .content2 {

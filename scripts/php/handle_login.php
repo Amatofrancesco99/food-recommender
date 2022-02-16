@@ -4,7 +4,7 @@
 	require_once("displayMessageAndRedirect.php");
 
 	if (isset($_SESSION['username'])) {
-		header('Location: ../../templates/main.html');
+		header('Location: ../../templates/main.php');
 		exit;
 	}
 
@@ -15,18 +15,16 @@
 		$query = "SELECT * FROM users WHERE username = '$username' LIMIT 1";
 		$result = mysqli_query($con, $query);
 		
-		if($result) {
-            if($result && mysqli_num_rows($result) > 0) {
-				$user_data = mysqli_fetch_assoc($result);	
-
-				if($user_data['password'] === $password) {
-					header("Location: ../../templates/main.php");
-					die;
-				}
+        if($result && mysqli_num_rows($result) > 0) {
+			$user_data = mysqli_fetch_assoc($result);	
+			if($user_data['password'] === $password) {
+				$_SESSION['username'] = $username;
+				header("Location: ../../templates/main.php");
+				die;
 			}
-		} 
-		displayMessageAndRedirect("Wrong username or password", "../../templates/login.php");
+		} else { 
+			displayMessageAndRedirect("Wrong username or password", "../../templates/login.php");
+		}
 	}
-	$_SESSION['username'] = $username;
 	mysqli_close($con);
 ?>

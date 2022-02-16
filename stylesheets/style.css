@@ -334,21 +334,6 @@ q {
     margin-bottom: 0;
 }
 
-#reset {
-    background-image: url("../images/refresh.png");
-    background-color: transparent;
-    background-image: transparent;
-    border-color: transparent;
-    background-size: cover;
-    width: 70px;
-    height: 70px;
-    background-repeat: no-repeat;
-}
-
-#reset:hover {
-    cursor: pointer;
-}
-
 .button {
     align-items: center;
     appearance: none;

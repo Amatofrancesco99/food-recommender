@@ -22,7 +22,9 @@
             <h1 class="purple">
                 What can I eat now?
             </h1>
-            <button id="reset" onclick="alert('Ops...This part of the site is already under development');"></button>
+            <form action="../scripts/php/handle_show-receipe.php" method="post">
+                    <input type="submit" class="button" value="Show receipe" name="show" id="show">
+            </form>
         </header>
 
         <?php include("sharedElements/footer.php") ?>

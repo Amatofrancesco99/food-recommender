@@ -22,6 +22,6 @@
     }
     mysqli_close($con);
     echo('Import completed<br>');
-    echo('Recipes id that were not inserted properly:<br>');
+    echo('N° of recipes that were not inserted properly: '.count($id_errors).'<br>');
     echo '<pre>'; print_r($id_errors); echo '</pre>';
 ?>

@@ -2,9 +2,8 @@
     session_start();
     require_once("config.php");
     
-    /* The aim of this query is finding three random comments in the review table, where the username
-    are not the same */
-    $query =  "SELECT username, comment FROM reviews GROUP BY username ORDER BY RAND() LIMIT 3";
+    /* The aim of this query is finding three random comments in the review table */
+    $query =  "SELECT username,comment FROM reviews ORDER BY RAND() LIMIT 3";
     $result = mysqli_query($con, $query);
 
     if($result) {

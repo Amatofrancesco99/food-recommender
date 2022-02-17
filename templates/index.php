@@ -13,7 +13,6 @@
         <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
         <link rel="stylesheet" href="../stylesheets/style.css">
 
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
         <script src="../scripts/javascript/animations/more-animation.js"></script>
         <script src="../scripts/javascript/animations/comments-animation.js"></script>
         <script src="../scripts/javascript/animations/typewriter-animation.js"></script>

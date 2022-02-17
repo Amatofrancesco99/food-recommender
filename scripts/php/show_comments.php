@@ -1,5 +1,6 @@
 <?php
-    session_start();
+    if(session_status() === PHP_SESSION_NONE) 
+        session_start();
     require_once("config.php");
     
     /* The aim of this query is finding three random comments in the review table */

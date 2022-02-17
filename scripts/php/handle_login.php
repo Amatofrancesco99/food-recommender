@@ -1,12 +1,8 @@
 <?php 
-	session_start();
+	if(session_status() === PHP_SESSION_NONE) 
+		session_start();
 	require_once("config.php");
 	require_once("displayMessageAndRedirect.php");
-
-	if (isset($_SESSION['username'])) {
-		header('Location: ../../templates/main.php');
-		exit;
-	}
 
 	if($_SERVER['REQUEST_METHOD'] == "POST") {
 		$username = $_POST['username'];
@@ -21,9 +17,9 @@
 				$_SESSION['username'] = $username;
 				header("Location: ../../templates/main.php");
 				die;
+			} else { 
+				displayMessageAndRedirect("Wrong username or password", "../../templates/login.php");
 			}
-		} else { 
-			displayMessageAndRedirect("Wrong username or password", "../../templates/login.php");
 		}
 	}
 	mysqli_close($con);

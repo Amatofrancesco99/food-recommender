@@ -16,12 +16,14 @@
 
 
     <body onload="hideRecipe()">
+        <?php include("../scripts/php/handle_loading-main.php") ?>
         <?php include("sharedElements/navbars/navbar2.php") ?>
 
         <header id="main">
-            <h1 class="purple">
-                What can I eat now?
-            </h1>
+            <?php include("../scripts/php/welcome_user.php") ?>
+            <h2 class="purple">
+                What can you eat now?
+            </h2>
             <form action="../scripts/php/handle_show-recipe.php" method="post">
                 <input type="submit" class="button" value="Show new recipe" name="show" id="show">
             </form>

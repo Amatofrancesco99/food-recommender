@@ -1,5 +1,6 @@
 <?php
-    session_start();
+    if(session_status() === PHP_SESSION_NONE) 
+        session_start();
     require_once("config.php");
     
     $query =  "SELECT id, name, aver_rate, img_url, review_nums, ingredients, cooking_directions FROM recipes ORDER BY RAND() LIMIT 1";

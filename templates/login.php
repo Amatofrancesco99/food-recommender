@@ -18,6 +18,7 @@
 
 
     <body>
+        <?php include("../scripts/php/handle_loading-login.php") ?>
         <?php include("sharedElements/navbars/navbar1.php") ?>
         
         <header id="default">

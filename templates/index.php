@@ -31,7 +31,7 @@
                     <h4>
                         Are you to lazy to think about what cooking?<br>
                         In this case, this app is just made for you.<br>
-                        Say what you would like eating, new recipes will be suggested.<br>
+                        New recipes will be suggested, benefiting of a very large dataset.<br>
                     </h4>
                 </div>
             </div>

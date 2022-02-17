@@ -22,14 +22,21 @@
 
         <header id="main">
             <?php include("../scripts/php/welcome_user.php") ?>
+            
             <h1 class="purple">
                 What can I eat right now?
             </h1>
             <form action="recipe.php">
                 <input type="submit" class="button show-recipe" value="Show recipe" name="show" id="show">
             </form>
-        </header>
 
+            <?php 
+                include("../scripts/php/show_random_image.php");
+                $image_name = getRandomImage("../images/eat-gif");
+                echo("<img src='../images/eat-gif/$image_name' class='gif'>");
+            ?>
+        </header>
+        
         <?php include("sharedElements/footer.php") ?>
 
     </body>

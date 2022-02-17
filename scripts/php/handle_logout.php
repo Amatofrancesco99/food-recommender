@@ -3,8 +3,7 @@ redirects to index page -->
 <?php
     if(session_status() === PHP_SESSION_NONE) 
         session_start();
-    unset($_SESSION['username']);
-    unset($_SESSION['already_welcome']);
+    unset($_SESSION);
     session_destroy();
     header('Location: ../../templates/index.php');
     exit;

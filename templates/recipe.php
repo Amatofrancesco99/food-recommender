@@ -20,7 +20,7 @@
         <?php include("sharedElements/navbars/navbar2.php"); ?>
         <!-- When loading the page a new recipe is taken from the database -->
         <?php include("../scripts/php/handle_recipe.php"); ?>
-
+        
         <div class="food-content">
             <?php echo('<h2 hidden>'.$recipe_data['id'].'</h2>'); ?>
             <?php echo('<img src="'.$recipe_data['img_url'].'" class="food">'); ?>
@@ -41,7 +41,7 @@
                 <?php echo($replaced_cooking_direction); ?>
             </p>
             <form action="recipe.php" method="post">
-                <input type="submit" class="button" value="Show another recipe" name="show" id="show">
+                <input type="submit" class="button show-recipe-2" value="Show another recipe" name="show" id="show">
             </form>
         </div>
         

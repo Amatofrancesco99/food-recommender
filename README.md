@@ -6,7 +6,7 @@
 ## Description
 A web app, whose purpose is **suggesting recipes to logged users**.
 
-Used recipes **dataset**: [FoodRecsSysv1](https://www.kaggle.com/elisaxxygao/foodrecsysv1?select=raw-data_recipe.csv).
+Used recipes **dataset**: [**FoodRecsSysv1**](https://www.kaggle.com/elisaxxygao/foodrecsysv1?select=raw-data_recipe.csv).
 <br>
 It contains *over 45k recipes*, coming from all over the world!
 

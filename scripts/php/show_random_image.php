@@ -1,4 +1,4 @@
-<!-- This script shows randomly a .gif image contained in a specific folder -->
+<!-- This script returns the name of a file contained in a specific folder, randomly -->
 <?php
     function getRandomImage($dir_path){
         chdir($dir_path);

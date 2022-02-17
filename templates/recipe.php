@@ -6,7 +6,6 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
         <meta name="robots" content="noindex">
 
         <link rel="icon" type="image/x-icon" href="../../images/favicon.ico">
@@ -25,8 +24,8 @@
             <?php echo('<h2 hidden>'.$recipe_data['id'].'</h2>'); ?>
             <?php echo('<img src="'.$recipe_data['img_url'].'" class="food">'); ?>
             <?php echo('<h1 class="white-pink">'.$recipe_data['name'].'</h1>'); ?>
-            <?php echo('<h2 class="purple"> Reviews: '.$recipe_data['review_nums'].' Score: '.round($recipe_data['aver_rate'], 1).'</h2>'); ?>
-            <h4 class="purple"> Ingredients:</h4>
+            <?php echo('<h2 class="purple"> Reviews: <span class="white">'.$recipe_data['review_nums'].'</span>'.'&emsp; Score: <span class="white">'.round($recipe_data['aver_rate'], 1).'</span></h2>'); ?>
+            <h3 class="purple"> Ingredients:</h3>
             <p class="white">
                 <?php 
                     for ($i = 0; $i < count($ingredients); $i++ ){
@@ -36,7 +35,7 @@
                     }
                 ?>
             </p>
-            <h4 class="purple"> Cooking directions:</h4>           
+            <h3 class="purple"> Cooking directions:</h3>           
             <p class="white">
                 <?php echo($replaced_cooking_direction); ?>
             </p>

@@ -6,13 +6,13 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
         <meta name="description" content="Food Recommender: a web app that suggests you what eating, knowing what kind of food do you like">
         <meta name="keywords" content="Food, Recommender System, Food Recommender">
     
         <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
         <link rel="stylesheet" href="../stylesheets/style.css">
 
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
         <script src="../scripts/javascript/animations/more-animation.js"></script>
         <script src="../scripts/javascript/animations/comments-animation.js"></script>
         <script src="../scripts/javascript/animations/typewriter-animation.js"></script>

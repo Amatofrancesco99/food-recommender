@@ -20,6 +20,7 @@ In order to get the database used for this project (containing *users, recipes &
 ![PHP](https://a11ybadges.com/badge?logo=php)
 ![CSS3](https://a11ybadges.com/badge?logo=css3)
 ![HTML5](https://a11ybadges.com/badge?logo=html5)
+![jQuery](https://a11ybadges.com/badge?logo=jquery)
 ![Font Awesome](https://a11ybadges.com/badge?logo=fontawesome)
 ![MAMP](https://a11ybadges.com/badge?logo=mamp)
 ![MySQL](https://a11ybadges.com/badge?logo=mysql)

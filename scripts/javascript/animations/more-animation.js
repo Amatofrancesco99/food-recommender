@@ -1,3 +1,4 @@
+/* This .js file permits to show the features of the project, using a particular animation */
 var TEXTS = ["All ingredients, for each receipe", "Nutrients for all receipes, for those who are health interested", " Step by step guideline, in order to properly cook dishes", "See the most liked receipes by other users", "Over 45k recipes, coming from all over the world"];
 var index = 0;
 

@@ -1,3 +1,7 @@
+/* This .js file contains functions that have been used in order to check if the users have properly
+inserted information while compiling different forms, SweetAlert2 has been used in order to provide an
+explanation of different errors */
+
 function validLoginForm() {
     var password = document.getElementById("password").value;
 

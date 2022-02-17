@@ -1,3 +1,5 @@
+<!-- This file contains the page that permits to add a comment of the app
+NOTE: new added comments will be shown in index.php in the clients section -->
 <!DOCTYPE html>
 <html lang="en">
 

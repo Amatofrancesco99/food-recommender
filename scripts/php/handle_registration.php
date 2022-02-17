@@ -1,3 +1,5 @@
+<!-- This script permits to create a new account, by checking on the db fields (for example if the
+username does not already exist) -->
 <?php
     if(session_status() === PHP_SESSION_NONE) 
         session_start();

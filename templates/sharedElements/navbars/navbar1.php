@@ -1,3 +1,4 @@
+<!-- This file contains the first used navbar -->
 <!DOCTYPE html>
 <html lang="en">
     <head>

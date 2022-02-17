@@ -1,3 +1,4 @@
+<!-- This script permits to show existing comments in the index page (what client said part) -->
 <?php
     if(session_status() === PHP_SESSION_NONE) 
         session_start();

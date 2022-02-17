@@ -1,3 +1,4 @@
+<!-- This file contains the second used navbar -->
 <!DOCTYPE html>
 <html lang="en">
     <head>

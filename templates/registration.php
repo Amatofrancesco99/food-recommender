@@ -1,3 +1,4 @@
+<!-- This file contains the page that permits to create a new user -->
 <!DOCTYPE html>
 <html lang="en">
 

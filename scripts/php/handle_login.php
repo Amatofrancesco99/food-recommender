@@ -1,3 +1,5 @@
+<!-- This script handle the login page, such that if user insert existing username and right password
+he'll be redirected to main page -->
 <?php 
 	if(session_status() === PHP_SESSION_NONE) 
 		session_start();

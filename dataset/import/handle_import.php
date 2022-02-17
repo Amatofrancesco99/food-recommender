@@ -1,3 +1,4 @@
+<!-- This script is used in order to store recipes taken from the .csv file into the db -->
 <?php    
     session_start();
 	require_once("../../scripts/php/config.php");

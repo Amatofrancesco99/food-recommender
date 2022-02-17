@@ -1,3 +1,4 @@
+<!-- This script permits to say welcome to user if has logged in, and the session has just been created -->
 <?php
     if(session_status() === PHP_SESSION_NONE) 
         session_start(); 

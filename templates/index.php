@@ -1,3 +1,4 @@
+<!-- This file contains the index page description -->
 <!DOCTYPE html>
 <html lang="en">
 

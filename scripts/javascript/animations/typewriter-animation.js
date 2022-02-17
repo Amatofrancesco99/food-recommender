@@ -1,3 +1,6 @@
+/* This .js file is used in order to add a typewriter effect */
+
+// Default text = dataText
 var dataText = ["Your opinion matters!"];
 var CharDelay = 100;
 var WordPause = 500;

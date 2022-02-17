@@ -1,3 +1,4 @@
+<!-- This script permits to add a new comment to the db -->
 <?php
     if(session_status() === PHP_SESSION_NONE) 
         session_start();

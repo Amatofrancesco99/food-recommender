@@ -1,3 +1,5 @@
+/* In this .js file is containing different functions that have been used in order to pass from a 
+comment to another clicking on the dots (in index.php) */
 var slideIndex = 1;
 
 function plusSlides(n) {

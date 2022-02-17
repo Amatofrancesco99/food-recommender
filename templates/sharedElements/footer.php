@@ -1,3 +1,4 @@
+<!-- This file contains the footer -->
 <!DOCTYPE html>
 <html lang="en">
     <head>

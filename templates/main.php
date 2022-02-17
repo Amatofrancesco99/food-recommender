@@ -1,3 +1,4 @@
+<!-- This file contains the main page, the very first page used when the user logs in -->
 <!DOCTYPE html>
 <html lang="en">
 
@@ -15,27 +16,19 @@
     </head>
 
 
-    <body onload="hideRecipe()">
+    <body>
         <?php include("../scripts/php/handle_loading-main.php") ?>
         <?php include("sharedElements/navbars/navbar2.php") ?>
 
         <header id="main">
             <?php include("../scripts/php/welcome_user.php") ?>
-            <h2 class="purple">
-                What can you eat now?
-            </h2>
-            <form action="../scripts/php/handle_show-recipe.php" method="post">
-                <input type="submit" class="button" value="Show new recipe" name="show" id="show">
+            <h1 class="purple">
+                What can I eat right now?
+            </h1>
+            <form action="recipe.php">
+                <input type="submit" class="button show-recipe" value="Show recipe" name="show" id="show">
             </form>
         </header>
-        
-        <article id="recipe">
-            <div class="login-container">
-                <div class="content">
-                    <!-- Get a random recipe from the db -->
-                </div>
-            </div>
-        </article>
 
         <?php include("sharedElements/footer.php") ?>
 

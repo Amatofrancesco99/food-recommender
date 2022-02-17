@@ -1,3 +1,4 @@
+<!-- This file contains the login page -->
 <!DOCTYPE html>
 <html lang="en">
 

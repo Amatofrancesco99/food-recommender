@@ -20,28 +20,30 @@
         <!-- When loading the page a new recipe is taken from the database -->
         <?php include("../scripts/php/handle_recipe.php"); ?>
         
-        <div class="food-content">
-            <?php echo('<h2 hidden>'.$recipe_data['id'].'</h2>'); ?>
-            <?php echo('<img src="'.$recipe_data['img_url'].'" class="food">'); ?>
-            <?php echo('<h1 class="white-pink">'.$recipe_data['name'].'</h1>'); ?>
-            <?php echo('<h2 class="purple"> Reviews: <span class="white">'.$recipe_data['review_nums'].'</span>'.'&emsp; Score: <span class="white">'.round($recipe_data['aver_rate'], 1).'</span></h2>'); ?>
-            <h3 class="purple"> Ingredients:</h3>
-            <p class="white">
-                <?php 
-                    for ($i = 0; $i < count($ingredients); $i++ ){
-                        if ($i == 0) { echo (ucfirst($ingredients[$i]).', '); }
-                        else if ($i != count($ingredients) - 1) {  echo ($ingredients[$i].', '); }
-                        else { echo ($ingredients[$i].'.'); }
-                    }
-                ?>
-            </p>
-            <h3 class="purple"> Cooking directions:</h3>           
-            <p class="white">
-                <?php echo($replaced_cooking_direction); ?>
-            </p>
-            <form action="recipe.php" method="post">
-                <input type="submit" class="button show-recipe-2" value="Show another recipe" name="show" id="show">
-            </form>
+        <div class="recipe-content">
+            <div class="recipe-container">
+                <?php echo('<h2 hidden>'.$recipe_data['id'].'</h2>'); ?>
+                <?php echo('<img src="'.$recipe_data['img_url'].'" class="food">'); ?>
+                <?php echo('<h1 class="purple"><em>'.$recipe_data['name'].'</em></h1>'); ?>
+                <?php echo('<h2><span class="light-purple"> Reviews: </span>'.$recipe_data['review_nums'].'&emsp;<span class="light-purple"> Score: </span>'.round($recipe_data['aver_rate'], 1).'</h2>'); ?>
+                <h3 class="light-purple"> Ingredients:</h3>
+                <p>
+                    <?php 
+                        for ($i = 0; $i < count($ingredients); $i++ ){
+                            if ($i == 0) { echo (ucfirst($ingredients[$i]).', '); }
+                            else if ($i != count($ingredients) - 1) {  echo ($ingredients[$i].', '); }
+                            else { echo ($ingredients[$i].'.'); }
+                        }
+                    ?>
+                </p>
+                <h3 class="light-purple"> Cooking directions:</h3>           
+                <p>
+                    <?php echo($replaced_cooking_direction); ?>
+                </p>
+                <form action="recipe.php" method="post">
+                    <input type="submit" class="button show-recipe-2" value="Show another recipe" name="show" id="show">
+                </form>
+            </div>
         </div>
         
         <?php include("sharedElements/footer.php"); ?>

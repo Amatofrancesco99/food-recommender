@@ -22,10 +22,12 @@
         
         <div class="recipe-content">
             <div class="recipe-container">
-                <?php echo('<h2 hidden>'.$recipe_data['id'].'</h2>'); ?>
-                <?php echo('<img src="'.$recipe_data['img_url'].'" class="food">'); ?>
-                <?php echo('<h1 class="purple"><em>'.$recipe_data['name'].'</em></h1>'); ?>
-                <?php echo('<h2><span class="light-purple"> Reviews: </span>'.$recipe_data['review_nums'].'&emsp;<span class="light-purple"> Score: </span>'.round($recipe_data['aver_rate'], 1).'</h2>'); ?>
+                <?php 
+                    echo('<h2 hidden>'.$recipe_data['id'].'</h2>'); 
+                    echo('<img src="'.$recipe_data['img_url'].'" class="food">');
+                    echo('<h1 class="purple"><em>'.$recipe_data['name'].'</em></h1>');
+                    echo('<h2><span class="light-purple"> Reviews: </span>'.$recipe_data['review_nums'].'&emsp;<span class="light-purple"> Score: </span>'.round($recipe_data['aver_rate'], 1).'</h2>'); 
+                ?>
                 <h3 class="light-purple"> Ingredients:</h3>
                 <p>
                     <?php 

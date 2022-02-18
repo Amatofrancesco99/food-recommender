@@ -479,6 +479,8 @@ input.button-refresh {
 }
 
 /* ================================================Responsive=========================================== */
+/* We are interested on making this web app responsive on phones, tablets and normal pc */
+
 /* Phones -- From screens larger than 350px the behaviour is not controlled */
 @media screen and (min-width:350px) and (max-width:459px) {
     #navbar a {

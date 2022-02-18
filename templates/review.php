@@ -14,6 +14,7 @@ NOTE: new added comments will be shown in index.php in the clients section -->
         <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
         <link rel="stylesheet" href="../stylesheets/style.css">
 
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.js"></script>
         <script src="../scripts/javascript/functions.js"></script> 
 
         <title>Food Recommender | Review</title>

@@ -14,6 +14,7 @@
         <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
         <link rel="stylesheet" href="../stylesheets/style.css">
 
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
         <script src="../scripts/javascript/animations/more-animation.js"></script>
         <script src="../scripts/javascript/animations/comments-animation.js"></script>
@@ -88,7 +89,7 @@
             <div class="requests-container">
                 <div class="requests-content">
                     <h1 class="white-pink x-large">MAKE <span class="purple">REQUESTS </span></h1>
-                    <p>
+                    <p class="white medium">
                         <a href="login.php" class="purple">Login now</a> and leave a review.<br>
                         <div id="typewriter" class="white medium"></div>
                     </p>

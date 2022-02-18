@@ -24,7 +24,7 @@ body {
     width: 120px;
     color: rgb(241, 241, 241);
     text-decoration: none;
-    font-size: 14px;
+    font-size: 15px;
 }
   
 #navbar a:hover {
@@ -37,7 +37,7 @@ body {
     color: rgb(241, 241, 241);
     background-color: #c95297;
     width: 120px;
-    font-size: 13.5px;
+    font-size: 15px;
 }
   
 .sticky {
@@ -127,7 +127,7 @@ hr {
 
 .more-container {
     overflow: hidden;
-    max-height: 30%;
+    max-height: fit-content;
 }
 
 .more-thumb {
@@ -137,7 +137,7 @@ hr {
     background-repeat: no-repeat;
     background-size: cover;
     width: 50%;
-    min-height: 450px;
+    min-height: 400px;
 }
 
 .more-content {
@@ -150,7 +150,7 @@ hr {
 
 .clients-container {
     overflow: hidden;
-    max-height: 30%;
+    max-height: fit-content;
 }
 
 .clients-thumb {
@@ -161,7 +161,7 @@ hr {
     background-position: center;
     background-size: cover;
     width: 50%;
-    min-height: 450px;
+    min-height: 400px;
 }
 
 .clients-content {
@@ -331,7 +331,6 @@ q {
 }
 
 #footer {
-    position: absolute;
     text-align: center;
     font-size: smaller;
     padding: 1.2% 0% 1.2%;
@@ -341,7 +340,7 @@ q {
 }
 
 .item.social {
-    margin-top: 0.25%;
+    margin-top: 5px;
     text-align: center;
 }
 
@@ -477,4 +476,125 @@ input.button-refresh {
     resize: none;
 }
 
-/* Responsive */
+/* ================================================Responsive=========================================== */
+/* Phones -- From screens larger than 350px the behaviour is not controlled */
+@media screen and (min-width:350px) and (max-width:459px) {
+    #navbar a {
+        padding: 15px 0px 15px;
+        font-size: 13px;
+        width: 80px;
+    }
+  
+    #navbar a-Active {
+        font-size: 13px;
+        width: 80px;
+    }
+
+    #header {
+        padding: 10% 0% 10%;
+    }
+
+    #default {
+        margin-top: 85%;
+    } 
+
+    .main-container {
+        top: 42%;
+        height: 60%;
+        width: 85%;
+    }
+
+    .content {
+        padding: 0% 5% 0%;
+    }
+
+    .more-content {
+        margin: 5% 0% 20% 50%;
+        padding: 0% 8% 0%;
+    }
+
+    #see-more {
+        padding-top: 100%;
+        font-size: 0.8em;
+    }
+
+    .more-thumb {
+        min-height: 340px;
+    }
+
+    .clients-thumb {
+        background-size: 140%;
+        min-height: 340px;
+    }
+
+    .login-container {  
+        top: 42%;
+        height: 65%;
+        width: 85%;
+    }
+
+    .content2 {
+        padding: 0% 28% 0%;
+    }
+    
+    .recipe-container {
+        margin-left: 5%;
+        width: 90%;
+    }
+
+    .review-container {  
+        padding-left: 5%;
+        top: 42%;
+        height: 64%;
+        width: 85%;
+    }
+}
+  
+/* Larger phones */
+@media screen and (min-width:460px) and (max-width:599px) {
+    #navbar a {
+        padding: 12px 5px 11px;
+        width: 90px;
+    }
+  
+    #navbar a-Active {
+        width: 90px;
+    }
+}
+  
+/* Mini-tablet */
+@media screen and (min-width:600px) and (max-width:700px) {
+    #navbar a {
+        padding: 11px 6px 11px;
+        width: 100px;
+    }
+  
+    #navbar a-Active{
+        width: 100px;
+    }
+}
+  
+/* Tablets */
+@media screen and (min-width:701px) and (max-width:799px) {
+
+}
+  
+/* Tablets */
+@media screen and (min-width:800px) and (max-width:999px) {
+
+}
+  
+/* PCs */
+@media screen and (min-width:1000px) and (max-width:1219px) {
+
+}
+  
+/* PCs */
+@media screen and (min-width:1220px) and (max-width:1399px){
+
+}
+  
+/* Monitors */
+@media screen and (min-width:1400px) {
+
+}

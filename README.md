@@ -14,7 +14,7 @@ It contains *over 45k recipes*, coming from all over the world!
 In order to get the database used for this project (containing *users, recipes & reviews tables*), download this [**.sql.zip file**](https://drive.google.com/file/d/1jvNXcg9U4UPF0snDHwQG-WGpWct9B1lP/view?usp=sharing).
 
 ## Functionalities
-The application now returns a *random reciepe* taken from the database.<br>
+The application now returns a *random recipe* taken from the database.<br>
 Obviously this is the easiest implementation, but you're free to fork this project and add new functionalities.<br>
 Some examples:
 - Suggesting a recipe basing on:

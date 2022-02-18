@@ -79,8 +79,9 @@ body {
 }
 
 .recipe-container {
+    padding: 0% 5% 0%;
     margin-top: 3%;  
-    margin-left: 15%;
+    margin-left: 10%;
     height: fit-content;
     width: 70%;
     background: #e0e0e0;
@@ -298,6 +299,7 @@ q {
     padding-top: 39%;
     color: rgb(211, 211, 211);
     font-size: 0.8em;
+    padding-bottom: 2%;
 }
   
 .stage {
@@ -522,9 +524,17 @@ input.button-refresh {
         min-height: 340px;
     }
 
+    #more-text-change {
+        margin-top: 20%;
+    }
+
     .clients-thumb {
         background-size: 140%;
         min-height: 340px;
+    }
+
+    .clients-content {
+        padding: 2%;
     }
 
     .login-container {  
@@ -538,8 +548,8 @@ input.button-refresh {
     }
     
     .recipe-container {
-        margin-left: 5%;
-        width: 90%;
+        margin-left: 1%;
+        width: 88%;
     }
 
     .review-container {  
@@ -547,6 +557,10 @@ input.button-refresh {
         top: 42%;
         height: 64%;
         width: 85%;
+    }
+
+    #main {
+        padding: 2% 0% 32%;
     }
 }
   
@@ -560,6 +574,77 @@ input.button-refresh {
     #navbar a-Active {
         width: 90px;
     }
+
+    #header {
+        padding: 2% 0% 8%;
+    }
+
+    #default {
+        margin-top: 63%;
+    } 
+
+    .main-container {
+        top: 42%;
+        height: 60%;
+        width: 85%;
+    }
+
+    .content {
+        padding: 0% 5% 0%;
+    }
+
+    .more-content {
+        margin: 5% 0% 20% 50%;
+        padding: 0% 4% 0%;
+    }
+
+    #see-more {
+        padding-top: 100%;
+        font-size: 0.8em;
+    }
+
+    .more-thumb {
+        min-height: 340px;
+    }
+
+    #more-text-change {
+        margin-top: 20%;
+    }
+
+    .clients-thumb {
+        background-size: 140%;
+        min-height: 340px;
+    }
+
+    .clients-content {
+        padding: 2%;
+    }
+
+    .login-container {  
+        top: 42%;
+        height: 65%;
+        width: 70%;
+    }
+
+    .content2 {
+        padding: 0% 30% 0%;
+    }
+    
+    .recipe-container {
+        margin-left: 4%;
+        width: 82%;
+    }
+
+    .review-container {  
+        padding-left: 3%;
+        top: 42%;
+        height: 66%;
+        width: 65%;
+    }
+
+    #main {
+        padding: 2% 0% 28%;
+    }
 }
   
 /* Mini-tablet */
@@ -572,29 +657,203 @@ input.button-refresh {
     #navbar a-Active{
         width: 100px;
     }
+
+    #header {
+        padding: 2% 0% 5%;
+    }
+
+    #default {
+        margin-top: 55%;
+    } 
+
+    .main-container {
+        top: 42%;
+        height: 60%;
+        width: 85%;
+    }
+
+    .content {
+        padding: 0% 5% 0%;
+    }
+
+    .more-content {
+        margin: 5% 0% 20% 50%;
+        padding: 0% 4% 0%;
+    }
+
+    #see-more {
+        padding-top: 90%;
+        font-size: 0.8em;
+        padding-bottom: 8%;
+    }
+
+    #more-text-change {
+        margin-top: 20%;
+    }
+    
+    .login-container {  
+        top: 42%;
+        height: 65%;
+        width: 70%;
+    }
+
+    .content2 {
+        padding: 0% 29% 0%;
+    }
+    
+    .recipe-container {
+        margin-left: 4%;
+        width: 82%;
+    }
+
+    .review-container {  
+        padding-left: 4%;
+        top: 42%;
+        height: 66%;
+        width: 60%;
+    }
+
+    #main {
+        padding: 2% 0% 20%;
+    }
 }
   
 /* Tablets */
 @media screen and (min-width:701px) and (max-width:799px) {
+    #header {
+        padding: 2% 0% 4%;
+    }
 
+    #default {
+        margin-top: 30%;
+    } 
+
+    .main-container {
+        top: 42%;
+        height: 55%;
+        width: 65%;
+    }
+
+    .more-content {
+        margin: 5% 0% 20% 50%;
+        padding: 0% 4% 0%;
+    }
+
+    #see-more {
+        padding-top: 70%;
+        font-size: 0.8em;
+        padding-bottom: 4%;
+    }
+
+    #more-text-change {
+        margin-top: 15%;
+    }
+    
+    .login-container {  
+        top: 42%;
+        height: 65%;
+        width: 58%;
+    }
+    
+    .recipe-container {
+        margin-left: 4%;
+        width: 82%;
+    }
+
+    .review-container {  
+        top: 44%;
+        height: 68%;
+        width: 55%;
+    }
+
+    #main {
+        padding: 2% 0% 15%;
+    }
 }
   
 /* Tablets */
 @media screen and (min-width:800px) and (max-width:999px) {
+    #header {
+        padding: 2% 0% 2%;
+    }
 
+    #default {
+        margin-top: 16%;
+    } 
+
+    .main-container {
+        top: 42%;
+        height: 58%;
+        width: 50%;
+    }
+
+    .more-content {
+        margin: 5% 0% 20% 50%;
+        padding: 0% 4% 0%;
+    }
+
+    #see-more {
+        padding-top: 60%;
+        font-size: 0.8em;
+        padding-bottom: 4%;
+    }
+
+    #more-text-change {
+        margin-top: 18%;
+    }
+    
+    .login-container {  
+        top: 40%;
+        height: 60%;
+        width: 45%;
+    }
+    
+    .recipe-container {
+        margin-left: 8%;
+        width: 70%;
+    }
+
+    .review-container {  
+        top: 42%;
+        height: 65%;
+        width: 45%;
+    }
+
+    #main {
+        padding: 2% 0% 10%;
+    }
 }
   
 /* PCs */
 @media screen and (min-width:1000px) and (max-width:1219px) {
+    #default {
+        margin-top: 10%;
+    } 
 
-}
-  
-/* PCs */
-@media screen and (min-width:1220px) and (max-width:1399px){
+    .main-container {
+        top: 42%;
+        height: 55%;
+        width: 45%;
+    }
 
-}
-  
-/* Monitors */
-@media screen and (min-width:1400px) {
+    #see-more {
+        padding-top: 50%;
+        font-size: 0.8em;
+    }
+    
+    .login-container {  
+        top: 43%;
+        height: 60%;
+        width: 40%;
+    }
 
+    .review-container {  
+        top: 45%;
+        height: 65%;
+        width: 40%;
+    }
+
+    #main {
+        padding: 2% 0% 7%;
+    }
 }

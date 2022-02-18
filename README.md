@@ -13,6 +13,19 @@ It contains *over 45k recipes*, coming from all over the world!
 ## Dataset
 In order to get the database used for this project (containing *users, recipes & reviews tables*), download this [**.sql.zip file**](https://drive.google.com/file/d/1jvNXcg9U4UPF0snDHwQG-WGpWct9B1lP/view?usp=sharing).
 
+## Functionalities
+The application now returns a *random recipe* taken from the database.<br>
+Obviously this is the easiest implementation, but you're free to fork this project and add new functionalities.<br>
+Some examples:
+- Suggesting a recipe basing on:
+  - its nutrients
+  - its ingredients
+  - ratings given by other users
+  - ...
+- Add the possibility to add a personal rating on a recipe, by a logged user.
+
+**Any help will be really appreciated.**
+
 *** 
 ## More information
 ### Languages, libraries, database & web server

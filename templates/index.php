@@ -9,6 +9,8 @@
         <meta name="description" content="Food Recommender: a web app that suggests you what eating, knowing what kind of food do you like">
         <meta name="keywords" content="Food, Recommender System, Food Recommender">
     
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@sweetalert2/theme-dark@5/dark.css">
         <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
         <link rel="stylesheet" href="../stylesheets/style.css">
 
@@ -64,19 +66,19 @@
         <article id="clients">
             <div class="clients-container">
                 <div class="clients-thumb"></div>
-                <div class="clients-content">
-                    <h1 class="white-pink x-large">WHAT <span class="purple">CLIENTS </span>SAID</h1>
-                    <p>
-                        <div class="comments-container">
-                            <?php include("../scripts/php/show_comments.php") ?>
-                        </div>
-                        <div class="dot-container">
-                            <span class="dot" onclick="currentSlide(1)"></span> 
-                            <span class="dot" onclick="currentSlide(2)"></span> 
-                            <span class="dot" onclick="currentSlide(3)"></span> 
-                        </div>
-                    </p>
-                </div>
+                    <div class="clients-content">
+                        <h1 class="white-pink x-large">WHAT <span class="purple">CLIENTS </span>SAID</h1>
+                        <p>
+                            <div class="comments-container">
+                                <?php include("../scripts/php/show_comments.php") ?>
+                            </div>
+                            <div class="dot-container">
+                                <span class="dot" onclick="currentSlide(1)"></span> 
+                                <span class="dot" onclick="currentSlide(2)"></span> 
+                                <span class="dot" onclick="currentSlide(3)"></span> 
+                            </div>
+                        </p>
+                    </div>
             </div>
         </article>
 
@@ -84,12 +86,13 @@
 
         <article id="requests">
             <div class="requests-container">
-            <div class="requests-content">
-                <h1 class="white-pink x-large">MAKE <span class="purple">REQUESTS </span></h1>
-                <p class="white medium">
-                    <a href="login.php" class="purple">Login now</a> and leave a review.<br>
-                    <div id="typewriter" class="white medium"></div>
-                </p>
+                <div class="requests-content">
+                    <h1 class="white-pink x-large">MAKE <span class="purple">REQUESTS </span></h1>
+                    <p>
+                        <a href="login.php" class="purple">Login now</a> and leave a review.<br>
+                        <div id="typewriter" class="white medium"></div>
+                    </p>
+                </div>
             </div>
         </article>
 

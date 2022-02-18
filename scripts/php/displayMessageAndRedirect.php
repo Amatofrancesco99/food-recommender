@@ -6,10 +6,5 @@ when server side problems occours (example, creating an account whose username a
         echo 'alert("'.$msg.'");';
         echo 'window.location = "'.$path.'"';
         echo '</script>';
-
-        // header('Location: '.$path.'');
-        // echo '<script type="text/javascript">',
-        // 'Swal.fire("Error", "'.ucfirst((htmlspecialchars($msg))).'", "error")',
-        // '</script>';
     }
 ?>

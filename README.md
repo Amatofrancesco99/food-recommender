@@ -22,7 +22,7 @@ Some examples:
   - its ingredients
   - ratings given by other users
   - ...
-- Add the possibility to add a personal rating on a recipe, by a logged user.
+- Handle the possibility to add a personal rating on a recipe, by a logged user.
 
 **Any help will be really appreciated.**
 

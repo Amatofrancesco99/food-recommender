@@ -70,7 +70,7 @@ body {
     top: 45%;
     transform: translate(-50%, -50%);
     height: 55%;
-    width: 40%;
+    width: 35%;
     background: #e0e0e0;
     opacity: .85;
     overflow: hidden;
@@ -111,7 +111,7 @@ body {
     top: 46%;
     transform: translate(-50%, -50%);
     height: 65%;
-    width: 35%;
+    width: 30%;
     background: #e0e0e0;
     opacity: .85;
     overflow: hidden;
@@ -481,8 +481,96 @@ input.button-refresh {
 /* ================================================Responsive=========================================== */
 /* We are interested on making this web app responsive on phones, tablets and normal pc */
 
-/* Phones -- From screens larger than 350px the behaviour is not controlled */
-@media screen and (min-width:350px) and (max-width:459px) {
+/* Very small phones -- From screens smaller than 300px the behaviour is not controlled */
+@media screen and (min-width:300px) and (max-width:369px) {
+    #navbar a {
+        padding: 16px 0px 16px;
+        font-size: 12px;
+        width: 70px;
+    }
+  
+    #navbar a-Active {
+        font-size: 12px;
+        width: 70px;
+    }
+
+    #header {
+        padding: 10% 0% 10%;
+    }
+
+    #default {
+        margin-top: 120%;
+    } 
+
+    .main-container {
+        top: 42%;
+        height: 60%;
+        width: 95%;
+    }
+
+    .content {
+        padding: 0% 5% 0%;
+    }
+
+    .more-content {
+        margin: 5% 0% 20% 50%;
+        padding: 0% 4% 0%;
+    }
+
+    #see-more {
+        padding-top: 145%;
+        font-size: 0.7em;
+        padding-bottom: 2%;
+    }
+
+    .more-thumb {
+        min-height: 300px;
+    }
+
+    #more-text-change {
+        margin-top: 20%;
+    }
+
+    .clients-thumb {
+        background-position: right;
+        background-size: 200%;
+        min-height: 420px;
+    }
+
+    .clients-content {
+        padding: 2%;
+    }
+
+    .login-container {  
+        top: 42%;
+        height: 60%;
+        width: 85%;
+    }
+
+    .content2 {
+        padding: 0% 20% 0%;
+    }
+    
+    .recipe-container {
+        margin-left: 0%;
+        width: 90%;
+    }
+
+    .review-container {  
+        padding-left: 3%;
+        top: 42%;
+        height: 66%;
+        width: 90%;
+    }
+
+    #main {
+        padding: 2% 0% 25%;
+    }
+}
+
+
+/* Phones */
+@media screen and (min-width:370px) and (max-width:459px) {
     #navbar a {
         padding: 15px 0px 15px;
         font-size: 13px;
@@ -518,8 +606,9 @@ input.button-refresh {
     }
 
     #see-more {
-        padding-top: 100%;
-        font-size: 0.8em;
+        padding-top: 115%;
+        font-size: 0.7em;
+        padding-bottom: 2%;
     }
 
     .more-thumb {
@@ -566,7 +655,7 @@ input.button-refresh {
     }
 }
   
-/* Larger phones */
+/* Larger phones - fablet */
 @media screen and (min-width:460px) and (max-width:599px) {
     #navbar a {
         padding: 12px 5px 11px;

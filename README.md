@@ -10,8 +10,31 @@ Used recipes **dataset**: [**FoodRecsSysv1**](https://www.kaggle.com/elisaxxygao
 <br>
 It contains *over 45k recipes*, coming from all over the world!
 
-## Dataset
-In order to get the database used for this project (containing *users, recipes & reviews tables*), download this [**.sql.zip file**](https://drive.google.com/file/d/1jvNXcg9U4UPF0snDHwQG-WGpWct9B1lP/view?usp=sharing) and **import it** in your db istance.
+## Configuration
+<details id="configuration">
+  <summary>How can I start this application?</summary><br>
+  
+ 1. Open Mamp and start the server.
+    1. Not yet downloaded? Go at this [link](https://www.mamp.info/en/downloads/).
+ 1. Open phpMyAdmin clicking on `WebStart`>`Tools` and create a new db named `food_recommender`.
+ 1. Fork this project moving in the `document root folder` shown once Mamp app is opened.
+ 1. Change the [`config.php`](https://github.com/Amatofrancesco99/food-recommender/blob/main/scripts/php/config.php) file, inserting your **MySQL db istance** coordinates.
+  1. If you didn't change the info, the `config.php` file does not need to be modified.
+ 1. Download the [`.sql.zip file`](https://drive.google.com/file/d/1jvNXcg9U4UPF0snDHwQG-WGpWct9B1lP/view?usp=sharing)(containing *users, recipes & reviews tables*) and import it in `food_recommender` db.
+    1. Problems with the import procedure, since the imported file is too big?<br>
+       Search the `php.ini` file and change this properties:
+       ```
+       post_max_size = 2048M 
+       upload_max_filesize = 2048M 
+       max_execution_time = 5000 
+       max_input_time = 5000 
+       memory_limit = 4096M 
+       ```
+ 1. Insert this link in your browser: `http://localhost:8888/food-recommender/templates/index.php`.
+ 1. Now the real fun begins...
+    1. You can make changes on the project and add new functionalities.
+
+</details>
 
 ## Functionalities
 The application now returns a *random recipe* taken from the database.<br>
@@ -24,7 +47,7 @@ Some examples:
   - ...
 - Handle the possibility to add a personal rating on a recipe, by a logged user.
 
-**Any help will be really appreciated.**
+**Any help will really be appreciated.**
 
 *** 
 ## More information

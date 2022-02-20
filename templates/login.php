@@ -21,7 +21,7 @@
 
 
     <body>
-        <?php include("../scripts/php/handle_loading-login.php") ?>
+        <?php include("../scripts/php/handle_loading-not-expired.php") ?>
         <?php include("sharedElements/navbars/navbar1.php") ?>
         
         <header id="default">

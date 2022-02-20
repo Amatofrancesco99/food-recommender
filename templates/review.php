@@ -22,7 +22,10 @@ NOTE: new added comments will be shown in index.php in the clients section -->
 
 
     <body>
-        <?php include("sharedElements/navbars/navbar2.php") ?>
+        <?php 
+            include("../scripts/php/handle_loading-expired.php");
+            include("sharedElements/navbars/navbar2.php");
+        ?>
 
         <header id="default">
             <div class="review-container">

@@ -19,6 +19,7 @@
 
     <body>
         <?php 
+            include("../scripts/php/handle_loading-expired.php");
             include("sharedElements/navbars/navbar2.php");
             // When loading the page a new recipe is taken from the database
             include("../scripts/php/handle_recipe.php"); 

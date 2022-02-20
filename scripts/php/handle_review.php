@@ -14,16 +14,10 @@
         $isAnonymous = false;
     }
     
-    /* Handling the problem if the user logs out and then returns to review page */
-    if(isset($_SESSION['username'])){
-        if($isAnonymous) {
-            $username = NULL;
-        } else {
-            $username = $_SESSION["username"];
-        }
+    if($isAnonymous) {
+        $username = NULL;
     } else {
-        $isExpired = true;
-        displayMessageAndRedirect("Session expired, please login again.", "../../templates/login.php");
+        $username = $_SESSION["username"];
     }
     
     if(!$isExpired){

@@ -2,6 +2,7 @@
 inserted information while compiling different forms, SweetAlert2 has been used in order to provide an
 explanation of different errors */
 
+// This function checks if the login form is valid
 function validLoginForm() {
     var password = document.getElementById("password").value;
 
@@ -11,6 +12,7 @@ function validLoginForm() {
     }
 }
 
+// This function checks if the registration form is valid
 function validRegistrationForm() {
     var username = document.getElementById("username").value;
     var password = document.getElementById("password").value;
@@ -32,6 +34,7 @@ function validRegistrationForm() {
     }
 }
 
+// This function checks if the review form is valid
 function validReviewForm(){
     var message = document.getElementById("comment-area").value;
 

@@ -20,7 +20,7 @@
 
 
     <body>
-        <?php include("../scripts/php/handle_loading-main.php") ?>
+        <?php include("../scripts/php/handle_loading-expired.php") ?>
         <?php include("sharedElements/navbars/navbar2.php") ?>
 
         <header id="main">

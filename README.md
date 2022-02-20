@@ -61,5 +61,4 @@ Some examples:
 ![Apache](https://a11ybadges.com/badge?logo=apache)
 
 ***
-## Mockup
 ![alt image](https://github.com/Amatofrancesco99/food-recommender/blob/main/images/other/mockup.jpg)

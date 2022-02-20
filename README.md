@@ -4,15 +4,19 @@
 ![Repo-views-counter](https://komarev.com/ghpvc/?username=food-recommender&label=VIEWS&color=blueviolet&style=flat-square)
 
 ## Description
+<details id="description">
+  <summary> More details</summary><br>
+  
 A web app, whose purpose is **suggesting recipes to logged users**.
 
 Used recipes **dataset**: [**FoodRecsSysv1**](https://www.kaggle.com/elisaxxygao/foodrecsysv1?select=raw-data_recipe.csv).
 <br>
 It contains *over 45k recipes*, coming from all over the world!
+</details>
 
 ## Configuration
 <details id="configuration">
-  <summary>How can I start this application?</summary><br>
+  <summary> How can I start this application?</summary><br>
   
  1. Open Mamp and start the server.
     1. Not yet downloaded? Go at this [link](https://www.mamp.info/en/downloads/).
@@ -33,10 +37,12 @@ It contains *over 45k recipes*, coming from all over the world!
  1. Insert this link in your browser: `http://localhost:8888/food-recommender/templates/index.php`.
  1. Now the real fun begins...
     1. You can make changes on the project and add new functionalities.
-
 </details>
 
 ## Functionalities
+<details id="functionalities">
+  <summary> What else could be implemented?</summary><br>
+  
 The application now returns a *random recipe* taken from the database.<br>
 Obviously this is the easiest implementation, but you're free to fork this project and add new functionalities.<br>
 Some examples:
@@ -48,6 +54,7 @@ Some examples:
 - Handle the possibility to add a personal rating on a recipe, by a logged user.
 
 **Any help will really be appreciated.**
+</details>
 
 ## Languages, libraries, database & web server
 ![JavaScript](https://a11ybadges.com/badge?logo=javascript)

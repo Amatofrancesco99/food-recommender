@@ -49,7 +49,7 @@ Some examples:
 
 **Any help will really be appreciated.**
 
-### Languages, libraries, database & web server
+## Languages, libraries, database & web server
 ![JavaScript](https://a11ybadges.com/badge?logo=javascript)
 ![PHP](https://a11ybadges.com/badge?logo=php)
 ![CSS3](https://a11ybadges.com/badge?logo=css3)

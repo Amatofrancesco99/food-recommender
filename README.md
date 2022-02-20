@@ -4,15 +4,11 @@
 ![Repo-views-counter](https://komarev.com/ghpvc/?username=food-recommender&label=VIEWS&color=blueviolet&style=flat-square)
 
 ## Description
-<details id="description">
-  <summary> More details</summary><br>
-  
 A web app, whose purpose is **suggesting recipes to logged users**.
 
 Used recipes **dataset**: [**FoodRecsSysv1**](https://www.kaggle.com/elisaxxygao/foodrecsysv1?select=raw-data_recipe.csv).
 <br>
 It contains *over 45k recipes*, coming from all over the world!
-</details>
 
 ## Configuration
 <details id="configuration">

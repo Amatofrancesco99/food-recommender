@@ -11,7 +11,7 @@ Used recipes **dataset**: [**FoodRecsSysv1**](https://www.kaggle.com/elisaxxygao
 It contains *over 45k recipes*, coming from all over the world!
 
 ## Dataset
-In order to get the database used for this project (containing *users, recipes & reviews tables*), download this [**.sql.zip file**](https://drive.google.com/file/d/1jvNXcg9U4UPF0snDHwQG-WGpWct9B1lP/view?usp=sharing).
+In order to get the database used for this project (containing *users, recipes & reviews tables*), download this [**.sql.zip file**](https://drive.google.com/file/d/1jvNXcg9U4UPF0snDHwQG-WGpWct9B1lP/view?usp=sharing) and **import it** in your db istance.
 
 ## Functionalities
 The application now returns a *random recipe* taken from the database.<br>

@@ -49,8 +49,6 @@ Some examples:
 
 **Any help will really be appreciated.**
 
-*** 
-## More information
 ### Languages, libraries, database & web server
 ![JavaScript](https://a11ybadges.com/badge?logo=javascript)
 ![PHP](https://a11ybadges.com/badge?logo=php)

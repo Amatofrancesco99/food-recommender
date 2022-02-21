@@ -462,10 +462,6 @@ q {
     width: 100%; 
 }
 
-input.button-refresh {
-    background-image: url("../images/refresh.png");
-}
-
 #comment-area {
     margin: 5% 0% 5%;
     padding: 1.5% 3% 1.5%;

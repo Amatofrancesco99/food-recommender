@@ -29,3 +29,8 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";  
   dots[slideIndex-1].className += " active";
 }
+
+function automaticCommentsAnimation() {
+  currentSlide(1); 
+  setInterval('plusSlides(1);', 6000);
+}

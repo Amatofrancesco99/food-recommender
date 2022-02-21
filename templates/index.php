@@ -23,7 +23,7 @@
         <title>Food Recommender | Homepage</title>
     </head>
 
-    <body onload="currentSlide(1)">
+    <body onload="automaticCommentsAnimation()">
         <?php include("sharedElements/navbars/navbar1.php") ?>
 
         <header id="header">

@@ -20,7 +20,7 @@ It contains *over 45k recipes*, coming from all over the world!
  1. Fork this project moving in the `document root folder` shown once Mamp app is opened.
  1. Change the [`config.php`](https://github.com/Amatofrancesco99/food-recommender/blob/main/scripts/php/config.php) file, inserting your **MySQL db istance** coordinates.
   1. If you didn't change the info, the `config.php` file does not need to be modified.
- 1. Download the [`.sql.zip file`](https://drive.google.com/file/d/1jvNXcg9U4UPF0snDHwQG-WGpWct9B1lP/view?usp=sharing)(containing *users, recipes & reviews tables*) and import it in `food_recommender` db.
+ 1. Download the [`.sql.zip file`](https://drive.google.com/file/d/1ebmKlC-_fYb5kcrUef6GPDCLV7c05LBG/view?usp=sharing)(containing *users, recipes & reviews tables*) and import it in `food_recommender` db.
     1. Problems with the import procedure, since the imported file is too big?<br>
        Search the `php.ini` file and change this properties:
        ```
